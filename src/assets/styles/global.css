@@ -1,0 +1,42 @@
+:root {
+  --color-background: #0D0D0D;
+  
+  --color-primary: #BF6A39;
+  --color-gray-details: #686868;
+  --color-gray-dark: #7F7F7F;
+  --color-gray-light: #E3E3E3;
+ 
+  --color-text: #ffffff;
+  --color-text-secundary: #AEB6C1;
+  --color-footer-line: #AEB6C1;
+
+  --color-select-title: #5F75AA;
+  --color-full-white: #FFFFFF;
+  --color-header-border: #CCCCCC;
+
+  --color-arrow-border: #2A5A75;
+  --color-main-details: #D2E1DF;
+  --color-button: #32917B;
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body #root{
+  height: 100vh;
+}
+
+body {
+  background-image: url(../images//background.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body,
+input{
+  font-family: 'Barlow', sans-serif;
+}
