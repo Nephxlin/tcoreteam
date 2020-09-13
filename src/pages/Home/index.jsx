@@ -1,19 +1,17 @@
-import React from 'react';
+import React from 'react'
 
-import './app.css'
-
-function App() {
+export default function Home() {
   return (
-    <div className="App">
+    <>
       <header>
         <div className="logo">
             <h1>LOGO</h1>
         </div>
         <div className="top-bar">
-          <a>Serviços</a>
-          <a>Contato</a>
-          <a>Soluções</a>
-          <a>Sobre nós</a>
+          <a href="!#">Serviços</a>
+          <a href="!#">Contato</a>
+          <a href="!#">Soluções</a>
+          <a href="!#">Sobre nós</a>
         </div>
       </header>
 
@@ -105,8 +103,6 @@ function App() {
           <p>2312421421</p>
         </div>
       </footer>
-    </div>
-  );
+    </>
+  )
 }
-
-export default App;
