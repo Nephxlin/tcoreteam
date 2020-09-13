@@ -1,21 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
     <>
-      <header>
-        <div className="logo">
-            <h1>LOGO</h1>
-        </div>
-        <div className="top-bar">
-          <Link to="/services">Serviços</Link>
-          <Link to="/contact">Contato</Link>
-          <Link to="/solutions">Soluções</Link>
-          <Link to="/about">Sobre nós</Link>
-        </div>
-      </header>
-
       <section>
         <div id="about">
           <div>

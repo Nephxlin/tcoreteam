@@ -42,3 +42,7 @@ input{
   color: white;
   font-family: 'Barlow', sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
