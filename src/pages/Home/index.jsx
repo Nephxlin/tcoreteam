@@ -1,4 +1,7 @@
 import React from 'react';
+import { BiCodeAlt } from 'react-icons/bi';
+
+import './styles.css';
 
 export default function Home() {
   return (
@@ -8,6 +11,29 @@ export default function Home() {
           <div>
             <h1>Somos TcoreTeam</h1>
             <p>Fornecemos soluções para Serviços Webs</p>
+          </div>
+
+          <div className="details">
+            {/* offered services */}
+            <div className="flex">
+              <BiCodeAlt />
+              <p>sites responsivos</p>
+            </div>
+
+            <div className="flex">
+              <p>sites responsivos</p>
+              <BiCodeAlt />
+            </div>
+
+            <div className="flex">
+              <BiCodeAlt />
+              <p>sites responsivos</p>
+            </div>
+
+            <div className="flex">
+              <p>sites responsivos</p>
+              <BiCodeAlt />
+            </div>
           </div>
 
         </div>
