@@ -38,5 +38,7 @@ body {
 
 body,
 input{
+  font-size: 16px;
+  color: white;
   font-family: 'Barlow', sans-serif;
 }

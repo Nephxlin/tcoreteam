@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -8,10 +9,10 @@ export default function Home() {
             <h1>LOGO</h1>
         </div>
         <div className="top-bar">
-          <a href="!#">Serviços</a>
-          <a href="!#">Contato</a>
-          <a href="!#">Soluções</a>
-          <a href="!#">Sobre nós</a>
+          <Link to="/services">Serviços</Link>
+          <Link to="/contact">Contato</Link>
+          <Link to="/solutions">Soluções</Link>
+          <Link to="/about">Sobre nós</Link>
         </div>
       </header>
 
