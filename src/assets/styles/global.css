@@ -46,3 +46,26 @@ input{
 a {
   text-decoration: none;
 }
+
+/* utils */
+.page {
+  padding: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding-top: 2rem;
+  }
+
+  .mr-2 {
+    margin-right: unset;
+  }
+}
