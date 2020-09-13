@@ -14,71 +14,43 @@ export default function Home() {
 
         <div id="tecnologias">
           <div id="imgtech">
-            <img src="https://i.imgur.com/Bk2k8lW.png" alt=""/>
+            <img src="https://i.imgur.com/Bk2k8lW.png" alt="" />
           </div>
-          
+
           <div id="imgtech">
-            <img src="https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png" alt=""/>
+            <img src="https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png" alt="" />
           </div>
-          
+
           <div id="imgtech">
-            <img src="https://miro.medium.com/max/700/0*JH_HgIXBQvuenmUl.jpg" alt=""/>
+            <img src="https://miro.medium.com/max/700/0*JH_HgIXBQvuenmUl.jpg" alt="" />
           </div>
-          
-        </div>
-
-        <div id="portifolio">
-          <div>
-            <span>PROJETO 1</span>
-          </div>
-
-          <div>
-            <span>PROJETO 2</span>
-          </div>
-
-          <div>
-            <span>PROJETO 3</span>
-          </div>
-
-          <div>
-            <span>PROJETO 4</span>
-          </div>
-
-          <div>
-            <span>PROJETO 5</span>
-          </div>
-
-          <div>
-            <span>PROJETO 6</span>
-          </div>
-
         </div>
 
         <div className="mailing">
           <h1>Fale conosco</h1>
-            <div id="topmailing">
-              <div>
-                <p>name</p>
-                <input type="text"/>
-              </div>
-
-              <div>
-                <p>tel</p>
-                <input type="tel" name=""/>
-              </div>
-             
-              <div>
-                <p>Email</p>
-                <input type="email" name="" id=""/>
-              </div>
-  
+          <div id="topmailing">
+            <div>
+              <p>name</p>
+              <input type="text" />
             </div>
 
-            <div id="bootommailing">
-              <p>Mensagem</p>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div>
+              <p>tel</p>
+              <input type="tel" name="" />
             </div>
-            <button type="submit">Enviar</button>
+
+            <div>
+              <p>Email</p>
+              <input type="email" name="" id="" />
+            </div>
+
+          </div>
+
+          <div id="bootommailing">
+            <p>Mensagem</p>
+            <textarea name="" id="" cols="30" rows="10" />
+          </div>
+          <button type="submit">Enviar</button>
         </div>
 
       </section>
@@ -92,5 +64,5 @@ export default function Home() {
         </div>
       </footer>
     </>
-  )
+  );
 }

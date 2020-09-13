@@ -1,0 +1,36 @@
+/* 
+  Showcase 
+    (container)
+*/
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 600px) {
+  .showcase {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 
+  Project 
+    (divs inside .showcase)
+*/
+.project {
+  border: 1px solid white;
+  background-color: var(--color-button);
+}
+
+.project:not(last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.project-details {
+  width: 100%;
+}
+
+.project-details img {
+  object-fit: cover;
+  width: 100%;
+}
